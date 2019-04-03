@@ -1,0 +1,45 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <form [formGroup]="mdForm" (ngSubmit)="onSubmit(mdForm)" required>
+
+      <div class="form-group">
+        <label>Username:</label>
+        <input class="form-control" name="username" formControlName="username" required>
+        <!-- <div class="small mt-1 muted" >Username correct</div>-->
+      </div>
+
+      <div class="form-group">
+        <label>Email:</label>
+        <input class="form-control" name="email" formControlName="email" required>
+        <!-- <div class="small mt-1 muted" >E-mail correct</div>-->
+      </div>      
+
+      
+      <div class="form-group">
+        <label>Password:</label>
+        <input class="form-control" name="password" formControlName="password" required>
+        <!-- <div class="small mt-1 muted" >Password correct</div>-->
+      </div>  
+
+      <!-- <div class="form-group">
+        <label>Retype password:</label>
+        <input class="form-control" name="password2" formControlName="password2">
+      </div>  -->
+
+      <button  type="submit" class="btn btn-primary" [disabled]="!mdForm.valid">Submit</button>
+      <button  type="button" class="btn btn-outline-primary ml-2"  (click)="fillSampleData()">Fill in sample values</button>
+    </form>
+
+    
+    <div class="alert alert-success mt-4" *ngIf="showConfirmation" role="alert">
+      <strong>Well done!</strong> Your form has been submitted. <button class="button btn btn-outline-success ml-1" (click)="hideConfirmation()">Ok</button>
+    </div>
+    <div >
+
+
+    </div>
+
+    </div>
+  </div>
+</div>
