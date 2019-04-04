@@ -1,27 +1,20 @@
-# Loginforms
+# :pencil: angularValidationForms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4. It uses Bootstrap 4 framework for frontend grid and elements. 
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+AngularValidationForms is single page Angular 7 application. It contain working examples of Template Driven Form/Model Driven Form. Both forms are verified in realm time and display validation messages. The input data is not being sent/stored anywhere.
 
-## Code scaffolding
+## Live preview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The application can be live-previewed thanks for StackBlitz kindness. 
 
-## Build
+[:arrow_forward: Check the live version of Angular Validation Forms](https://stackblitz.com/github/klimaszenko/angularValidationForms)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## TO-DO
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [ ] update the layout
+- [ ] hide ng-status information
+- [ ] ask user to repeat password, include real time validation
+- [ ] add animation
